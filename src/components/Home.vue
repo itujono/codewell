@@ -38,9 +38,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-	.container {
-		max-width: 50%;
-	}
+	// .container {
+	// 	max-width: 50%;
+	// }
 
 	h1, h2 {
 		font-weight: normal;

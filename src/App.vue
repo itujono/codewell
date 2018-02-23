@@ -13,6 +13,9 @@
 <style lang="scss">
 	@import "/var.scss";
 
+
+
+
 	@font-face {
 		font-family: 'GothamRoundedBold';
 		src: url('../src/assets/fonts/gothamrnd-bold.eot');
@@ -21,6 +24,7 @@
 			url('../src/assets/fonts/gothamrnd-bold.ttf') format('truetype'),
 			url('../src/assets/fonts/gothamrnd-bold.svg#GothamRoundedBold') format('svg');
 	}
+	
 	@font-face {
 		font-family: 'GothamRoundedMedium';
 		src: url('../src/assets/fonts/gothamrnd-medium.eot');
@@ -29,6 +33,9 @@
 			url('../src/assets/fonts/gothamrnd-medium.ttf') format('truetype'),
 			url('../src/assets/fonts/gothamrnd-medium.svg#GothamRoundedMedium') format('svg');
 	}
+
+
+	/////////////
 
 
 
@@ -48,5 +55,14 @@
 		border-radius: 50px;
 		padding-left: 1.75em;
 		padding-right: 1.75em;
+	}
+
+
+
+
+	@media screen and (max-width: 414px) {
+		.container {
+			max-width: initial;
+		}
 	}
 </style>
